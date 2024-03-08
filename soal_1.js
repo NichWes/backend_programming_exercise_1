@@ -11,3 +11,5 @@ function bilPrima(a,b) {
         }
     }
 }
+
+bilPrima(1,1000);
