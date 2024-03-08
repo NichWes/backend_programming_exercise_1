@@ -1,5 +1,5 @@
 function bilPrima(a,b) {
-    for (i = 1; i <= 1000; i++) {
+    for (i = a; i <= b; i++) {
         let j = 0;
         for (k = 1; k <= i; i++) {
             if (i % k == 0) {
