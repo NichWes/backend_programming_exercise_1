@@ -7,9 +7,9 @@ function bilPrima(a,b) {
             }
         }
         if (j == 2) {
-            console.log(i);
+            return i;
         }
     }
 }
 
-bilPrima(1,1000);
+console.log(bilPrima(1,1000));
